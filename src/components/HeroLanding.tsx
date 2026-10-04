@@ -110,18 +110,17 @@ export const HeroLanding: React.FC<HeroLandingProps> = ({
 
             <div className="max-w-4xl mx-auto text-center space-y-6">
               {/* Badge */}
-              <div className="animate-badge-pop inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-lime/10 border border-lime/25 text-xs font-bold text-lime mb-2">
+              <div className="animate-badge-pop inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/10 border border-black/20 text-xs font-bold text-black mb-2">
                 <Sparkles size={12} /> Platform Valorisasi Sirkular Indonesia
               </div>
 
               <h1 className="display text-[2.35rem] sm:text-5xl lg:text-[3.6rem] font-extrabold leading-[1.08] text-[#111] animate-slide-left">
-                Memberdayakan Merek
+                Mengubah Food Residual
                 <br />
-                Dengan Solusi Sirkular
+                Menjadi Sumber Daya Bernilai.
               </h1>
               <p className="max-w-xl mx-auto text-[15px] text-zinc-500 leading-relaxed animate-slide-right delay-200">
-                CIRVAL membantu industri pangan mengubah residual menjadi sumber daya sekunder
-                lewat decision engine, pencocokan mitra, dan jejak digital yang sederhana.
+                Platform infrastruktur valorisasi sirkular berbasis data ilmiah untuk industri pangan dan mitra pengolah.
               </p>
               <div className="flex flex-wrap justify-center gap-3 animate-scale-in delay-300">
                 <button onClick={onOpenAddResource} className="btn-lime flex items-center gap-2 !px-6 animate-pulse-lime">
