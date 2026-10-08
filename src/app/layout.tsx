@@ -18,7 +18,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "CIRVAL — Circular Valorization Platform Indonesia",
+  title: "CIRVAL Circular Valorization Platform Indonesia",
   description: "Platform digital pendukung keputusan valorisasi sumber daya sirkular Indonesia. Mentransformasikan sisa pangan menjadi sumber daya sekunder bernilai tinggi.",
 };
 

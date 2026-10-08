@@ -26,9 +26,9 @@ const NAV_ITEMS: { id: ActiveTab; label: string }[] = [
   { id: 'landing', label: 'Beranda' },
   { id: 'dashboard', label: 'Dasbor' },
   { id: 'resources', label: 'Residual' },
-  { id: 'valorization', label: 'Mesin Keputusan' },
-  { id: 'marketplace', label: 'Pencocokan' },
-  { id: 'impact', label: 'Dampak' },
+  { id: 'valorization', label: 'Decision Engine' },
+  { id: 'marketplace', label: 'Circular Matching' },
+  { id: 'impact', label: 'Circular Traceability' },
 ];
 
 const MORE_ITEMS: { id: ActiveTab; label: string }[] = [
