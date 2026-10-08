@@ -23,8 +23,8 @@ interface NavbarProps {
 }
 
 const NAV_ITEMS: { id: ActiveTab; label: string }[] = [
-  { id: 'landing', label: 'Beranda' },
-  { id: 'dashboard', label: 'Dasbor' },
+  { id: 'landing', label: 'Home' },
+  { id: 'dashboard', label: 'Dashboard' },
   { id: 'resources', label: 'Residual' },
   { id: 'valorization', label: 'Decision Engine' },
   { id: 'marketplace', label: 'Circular Matching' },
